@@ -1,6 +1,6 @@
 cd /tmp
 # 1. Set up Docker's package repository
-DOCKER_DEKSTOP_VERSION="4.30.0"
+DOCKER_DESKTOP_VERSION="4.30.0"
 DOCKER_DESKTOP_ARCH="amd64"
 
 sudo apt-get install ca-certificates curl

@@ -12,12 +12,3 @@ git clone -b stable https://github.com/dsakuma/dev-setup.git ~/dev/dsakuma/dev-s
 
 source ~/dev/dsakuma/dev-setup/install.sh
 ```
-
-## SSH Keys
-
-Add ssh private and public keys to ~/.ssh and give the private key the correct permissions.
-
-```bash
-chmod 600 ~/.ssh/id_rsa
-ssh-add
-```

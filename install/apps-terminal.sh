@@ -1,6 +1,5 @@
-sudo apt install \
+sudo apt install -y \
     curl \
-    eza \
     fonts-jetbrains-mono \
     # fzf \ # remove when 0.48 or later is available
     git \
@@ -14,6 +13,6 @@ sudo apt install \
     tmux \
     vim \
     wget \
-    zsh \
     zsh-syntax-highlighting \
-    zoxide
+    zoxide \
+    zsh

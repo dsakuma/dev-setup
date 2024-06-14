@@ -1,5 +1,7 @@
 # dev-setup
 
+My development environment setup for Ubuntu 24.04 LTS.
+
 ## Installation
 
 ```bash

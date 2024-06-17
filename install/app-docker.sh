@@ -1,6 +1,7 @@
 #!/bin/bash
 
 cd /tmp || exit
+
 # 1. Set up Docker's package repository
 DOCKER_DESKTOP_VERSION="4.30.0"
 DOCKER_DESKTOP_ARCH="amd64"
@@ -25,4 +26,4 @@ sudo apt install "./docker-desktop-$DOCKER_DESKTOP_VERSION-$DOCKER_DESKTOP_ARCH.
 # 4. Fix for ubuntu 24.04
 sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
 
-cd -
+cd - || exit

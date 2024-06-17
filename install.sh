@@ -1,19 +1,16 @@
+#!/bin/bash
+
 # Need for installers
 sudo apt update
 sudo snap refresh snap-store
-sudo apt install -y curl git 
+sudo apt install -y curl git unzip
 
-# Run installers
-for script in ./install/*.sh; do . $script; done
-
-# Run setup
-for script in ./setup/*.sh; do . $script; done
-
-# Run dotfiles
-for script in ./dotfiles/*.sh; do . $script; done
-
-# Run post-dotfiles
-for script in ./post-dotfiles/*.sh; do . $script; done
+# Install all the things
+directories=(install setup dotfiles post-dotfiles)
+for directory in ${directories[@]}; do
+    echo Running $directory scripts...
+	for script in ./$directory/*.sh; do . $script; done
+done
 
 # Upgrade everything
 sudo apt upgrade -y

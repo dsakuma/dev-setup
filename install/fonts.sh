@@ -1,3 +1,5 @@
+#!/bin/bash
+
 mkdir -p ~/.fonts/Meslo
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Meslo.zip -P /tmp
 unzip /tmp/Meslo.zip -d ~/.fonts/Meslo

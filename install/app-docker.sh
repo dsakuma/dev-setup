@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /tmp
+cd /tmp || exit
 # 1. Set up Docker's package repository
 DOCKER_DESKTOP_VERSION="4.30.0"
 DOCKER_DESKTOP_ARCH="amd64"

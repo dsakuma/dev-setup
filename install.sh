@@ -7,9 +7,9 @@ sudo apt install -y curl git unzip
 
 # Install all the things
 directories=(install setup dotfiles post-dotfiles)
-for directory in ${directories[@]}; do
-    echo Running $directory scripts...
-	for script in ./$directory/*.sh; do . $script; done
+for directory in "${directories[@]}"; do
+    echo Running "$directory" scripts...
+	for script in ./"$directory"/*.sh; do . "$script"; done
 done
 
 # Upgrade everything

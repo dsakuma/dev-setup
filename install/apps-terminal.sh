@@ -10,6 +10,7 @@ sudo apt install -y \
     mc \
     nix \
     ripgrep \
+    shellcheck \
     tig \
     tldr \
     tmux \

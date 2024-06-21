@@ -1,3 +1,5 @@
 #!/bin/bash
 
-sudo snap install discord
+# sudo snap install discord
+
+# ToDo: Use apt

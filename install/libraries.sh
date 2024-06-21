@@ -1,4 +1,6 @@
 #!/bin/bash
 
 sudo apt install -y \
-    build-essential
+    build-essential \
+    libssl-dev \
+    zlib1g-dev

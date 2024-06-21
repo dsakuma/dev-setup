@@ -1,3 +1,5 @@
 #!/bin/bash
 
-sudo snap install spotify
+# sudo snap install spotify
+
+# ToDo: Use apt

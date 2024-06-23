@@ -8,7 +8,6 @@ sudo apt install -y \
     git \
     homesick \
     jq \
-    mc \
     nix \
     ripgrep \
     shellcheck \

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 homesick clone git@github.com:dsakuma/dotfiles.git
 homesick link dotfiles

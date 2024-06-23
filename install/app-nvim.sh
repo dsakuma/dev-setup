@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 FOLDER=~/.config/nvim
 if [ ! -d "$FOLDER" ] ; then

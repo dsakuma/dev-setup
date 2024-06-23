@@ -4,7 +4,7 @@ My development environment setup for Ubuntu 24.04 LTS.
 
 ## Installation
 
-```bash
+```sh
 # Install git
 sudo apt update
 sudo apt install -y git

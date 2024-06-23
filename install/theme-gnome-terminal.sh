@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 cd /tmp || exit
 git clone https://github.com/dracula/gnome-terminal

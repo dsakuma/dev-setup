@@ -1,6 +1,6 @@
 #!/bin/sh
 
-directories="pre-install install setup dotfiles post-dotfiles post-install"
+directories="pre-install install dotfiles post-dotfiles setup post-install"
 for directory in $directories; do
 	echo Running "$directory" scripts...
 	# shellcheck disable=SC1090

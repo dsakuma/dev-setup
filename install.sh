@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -eu
+
 directories="pre-install install dotfiles post-dotfiles setup post-install"
 for directory in $directories; do
 	echo Running "$directory" scripts...

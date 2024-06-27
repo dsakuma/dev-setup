@@ -2,7 +2,7 @@
 
 homesick clone git@github.com:dsakuma/dotfiles.git
 homesick link dotfiles
-echo "Restart session run or run \"exec zsh -l\""
+# echo "Restart session run or run \"exec zsh -l\""
 
 # Use chezmoi
 # cd /tmp || exit

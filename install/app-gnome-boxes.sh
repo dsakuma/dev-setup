@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sudo snap install gnome-boxes
+sudo apt install gnome-boxes

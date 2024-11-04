@@ -4,8 +4,7 @@
 
 sudo apt install -y \
     curl \
-    eza \
-    fonts-jetbrains-mono \
+    fd-find \
     git \
     homesick \
     jq \
@@ -19,5 +18,4 @@ sudo apt install -y \
     wget \
     zsh-autosuggestions \
     zsh-syntax-highlighting \
-    zoxide \
     zsh

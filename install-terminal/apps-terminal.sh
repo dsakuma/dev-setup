@@ -19,3 +19,6 @@ sudo apt install -y \
     zsh-autosuggestions \
     zsh-syntax-highlighting \
     zsh
+
+# Link fd to fdfind
+ln -s $(which fdfind) ~/.local/bin/fd

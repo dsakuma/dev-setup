@@ -21,4 +21,4 @@ sudo apt install -y \
     zsh
 
 # Link fd to fdfind
-ln -s $(which fdfind) ~/.local/bin/fd
+#ln -s $(which fdfind) ~/.local/bin/fd

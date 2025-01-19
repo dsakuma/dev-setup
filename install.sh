@@ -2,7 +2,7 @@
 
 set -eu
 
-directories="pre-install install-terminal install-gui dotfiles post-dotfiles setup-gui post-install"
+directories="01-pre-install 02-install-terminal 03-install-gui 04-dotfiles 05-post-dotfiles 06-setup-gui 07-post-install"
 
 for directory in $directories; do
 	echo Running "$directory" scripts...

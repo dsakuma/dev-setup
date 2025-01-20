@@ -30,3 +30,5 @@
 ## sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
 #
 #cd - || exit
+
+sudo snap install docker

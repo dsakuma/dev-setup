@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sudo apt install dconf-editorc
+sudo apt install -y dconf-editorc

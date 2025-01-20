@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sudo flatpak install com.discordapp.Discord
+sudo flatpak install -y com.discordapp.Discord

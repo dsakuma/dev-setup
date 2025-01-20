@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sudo apt install gnome-boxes
+sudo apt install -y gnome-boxes

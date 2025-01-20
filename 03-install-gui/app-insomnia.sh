@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sudo flatpak install rest.insomnia.Insomnia
+sudo flatpak install -y rest.insomnia.Insomnia

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sudo flatpak install com.google.Chrome 
+sudo flatpak install -y com.google.Chrome 

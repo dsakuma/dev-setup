@@ -1,3 +1,3 @@
 #!/bin/sh
 
-chsh -s $(which zsh)
+chsh -s "$(which zsh)"

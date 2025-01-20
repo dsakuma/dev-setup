@@ -2,7 +2,7 @@
 
 My development environment setup for Ubuntu 24.04 LTS or newer.
 
- 
+
 To avoid polluting the system with too many source lists, PPAs and dependencies on specific instructions, this setup uses the following priority order to install a package:
 
 - For comand line tools

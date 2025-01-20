@@ -1,5 +1,4 @@
 #!/bin/sh
 
 curl https://mise.run | sh
-
-# trust mise
+mise trust ~/.mise.local.toml

@@ -3,6 +3,5 @@
 # Remove unused software
 snap remove firefox
 
-# Upgrade and clean
-sudo apt upgrade -y
+# Remove unused packages
 sudo apt autoremove -y

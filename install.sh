@@ -2,7 +2,7 @@
 
 set -eu
 
-directories="01-pre-install 02-install-terminal-apps 03-install-desktop-apps 04-dotfiles 05-config 06-post-install"
+directories="01-pre-install 02-install-terminal-apps 03-install-desktop-apps 04-config 05-post-install"
 
 for directory in $directories; do
 	echo Running "$directory" scripts...

@@ -5,6 +5,7 @@ To avoid 5 character user folder name: Create local account first, then login in
 ## Install
 
 ### Install Packages
+
 ```
 winget install -e --id \
   discord.discord \
@@ -21,7 +22,7 @@ winget install -e --id \
   valve.steam \
   WhatsApp.WhatsApp
 ```
-  
+
 ### Fonts
 
 1. Download these four ttf files:
@@ -35,12 +36,12 @@ winget install -e --id \
        https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf)
 2. Double-click on each file and click "Install".
 
-
 ## Setup
 
 Windows Terminal settings
-1. Install Dracula theme on Windows Terminal: https://draculatheme.com/windows-terminal
-2.  On "Settings > Defaults > Additional Settings > Appearance" Set MesloLGSNF and One Half Dark
+
+1. Install Dracula theme on Windows Terminal: <https://draculatheme.com/windows-terminal>
+2. On "Settings > Defaults > Additional Settings > Appearance" Set MesloLGSNF and One Half Dark
 3. On "Settings > Defaults > Additional Settings > Advanced" Disable notification bell
 
 ## SSH Keys

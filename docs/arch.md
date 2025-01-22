@@ -3,14 +3,16 @@
 ## Install
 
 ### Install yay
-``` 
+
+```
 sudo pacman -S --needed git base-devel
 git clone https://aur.archlinux.org/yay.git /tmp/yay
 (cd /tmp/yay && makepkg -si)
-``` 
+```
 
 ### Install packages
-``` 
+
+```
 yay -S \
     aws-cli-v2 \
     base-devel \
@@ -41,55 +43,61 @@ yay -S \
     wget \
     zsh-syntax-highlighting-git \
     zsh-autosuggestions-git
-``` 
+```
 
 ### Gnome Terminal Dracula
-``` 
+
+```
 git clone https://github.com/dracula/gnome-terminal
 cd gnome-terminal
 ./install.sh
-``` 
+```
 
 ### Docker configuration
-``` 
+
+```
 sudo systemctl start docker.service
 sudo systemctl enable docker.service
 sudo usermod -aG docker $USER
-``` 
+```
 
 ### Nix configuration
-``` 
+
+```
 sudo systemctl enable nix-daemon.service
 sudo gpasswd -a $USER nix-user
-``` 
-
+```
 
 ## Dotfiles
-``` 
+
+```
 sudo gem install homesick
 homesick clone git@github.com:dsakuma/dotfiles.git
 homesick link dotfiles
 exec zsh -l
-``` 
+```
 
 ## Post dotfiles
 
 ### Install vim plugins
-``` 
+
+```
 vim +PlugInstall +qall
-``` 
+```
 
 ## Setup
 
 ### Use local time for RTC (to make it consistent with Windows dual boot)
-``` 
-timedatectl set-local-rtc 1 
-``` 
+
+```
+timedatectl set-local-rtc 1
+```
 
 ### Turn on bluetooth on startup
-``` 
+
+```
 sudo sed -i 's/# AutoEnable=false/AutoEnable=true/' /etc/bluetooth/main.conf
-``` 
+```
 
 <!-- ### Enable AUR on pamac
 sudo sed -Ei '/EnableAUR/s/^#//' /etc/pamac.conf
@@ -102,7 +110,6 @@ sudo mkswap /swapfile
 sudo swapon /swapfile
 sudo zsh -c "echo /swapfile none swap defaults 0 0 >> /etc/fstab" -->
 
-
 ## SSH Keys
 
 1. Copy ssh keys to Arch/Manjaro
@@ -110,7 +117,7 @@ sudo zsh -c "echo /swapfile none swap defaults 0 0 >> /etc/fstab" -->
 
 3. Add keys to ssh-agent
 
-``` 
+```
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
-``` 
+```

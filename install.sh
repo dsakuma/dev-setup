@@ -10,4 +10,4 @@ for directory in $directories; do
 	for script in ./"$directory"/*.sh; do . "$script"; done
 done
 
-echo "Finished! You may need to restart your session for changes to take effect."
+echo "Finished! You may need to restart your computer for changes to take effect."

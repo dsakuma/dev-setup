@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if [ ! -d ~/.fonts/Meslo ]; then
   mkdir -p ~/.fonts/Meslo

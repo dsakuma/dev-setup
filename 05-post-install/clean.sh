@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Remove unused software
 snap remove firefox

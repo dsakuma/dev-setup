@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # For compiling python
 sudo apt install -y \

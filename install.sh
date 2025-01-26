@@ -1,6 +1,12 @@
 #!/bin/sh
 
-directories=("01-pre-install 02-install-terminal-apps 03-install-desktop-apps 04-config 05-post-install")
+directories=(
+	"01-pre-install"
+	"02-install-terminal-apps"
+	"03-install-desktop-apps"
+	"04-config"
+	"05-post-install"
+)
 
 for directory in ${directories[@]}; do
 	echo Running "$directory" scripts...

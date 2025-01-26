@@ -1,3 +1,3 @@
 #!/bin/sh
 
-vim +PlugInstall +qall
+vim +'PlugInstall --sync' +qall

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 directories=(
 	"01-pre-install"
@@ -8,13 +8,13 @@ directories=(
 	"05-post-install"
 )
 
-for directory in ${directories[@]}; do
+for directory in "${directories[@]}"; do
 	echo Running "$directory" scripts...
 	# shellcheck disable=SC1090
-	for script in ./"$directory"/*.sh; do 
-	  source "$script"
-	  if [ $? -ne 0 ]; then
-		echo "Error: $script failed to execute."  
+	for script in ./"$directory"/*.sh; do
+	  echo Running "$script"...
+	  if ! source "$script"; then
+		  echo "Error: $script failed to execute."
 	    return 1
 	  fi
 	done

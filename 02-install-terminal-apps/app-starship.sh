@@ -1,3 +1,3 @@
 #!/bin/bash
 
-curl -sS https://starship.rs/install.sh | sh -s -- -y || true
+brew install starship

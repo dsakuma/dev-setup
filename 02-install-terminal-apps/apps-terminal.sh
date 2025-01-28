@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# add fzf when v0.48 or later is available
-
 sudo apt install -y \
     fd-find \
     fzf \

@@ -1,5 +1,9 @@
 #!/bin/bash
 
+ # Ensure computer doesn't go to sleep or lock while installing
+gsettings set org.gnome.desktop.screensaver lock-enabled false
+gsettings set org.gnome.desktop.session idle-delay 0
+
 directories=(
 	"01-pre-install"
 	"02-install-terminal-apps"
@@ -19,5 +23,9 @@ for directory in "${directories[@]}"; do
 	  fi
 	done
 done
+
+# Revert to normal idle and lock settings
+gsettings set org.gnome.desktop.screensaver lock-enabled true
+gsettings set org.gnome.desktop.session idle-delay 300
 
 echo "Finished! You may need to restart your computer for changes to take effect."

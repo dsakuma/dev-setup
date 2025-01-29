@@ -20,5 +20,6 @@ sudo apt install -y \
 
 # Link fd to fdfind
 if [ ! -L ~/.local/bin/fd ]; then
+  mkdir -p ~/.local/bin
   ln -s "$(which fdfind)" ~/.local/bin/fd
 fi

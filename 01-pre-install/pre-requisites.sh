@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Request sudo password once for the next 15 min
-sudo -v
-
 sudo apt update
 sudo apt install -y build-essential curl git unzip
 

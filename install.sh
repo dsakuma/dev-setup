@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Disable sudo timeout while installing
-echo "Defaults timestamp_timeout=-1" | sudo tee -a /etc/sudoers.d/disable_timeout
-
 # Ensure computer doesn't go to sleep or lock while installing
 gsettings set org.gnome.desktop.screensaver lock-enabled false
 gsettings set org.gnome.desktop.session idle-delay 0
@@ -32,8 +29,5 @@ done
 # Revert to normal idle and lock settings
 gsettings reset org.gnome.desktop.screensaver lock-enabled
 gsettings reset org.gnome.desktop.session idle-delay
-
-# Re-enable sudo timeout
-sudo rm -f /etc/sudoers.d/disable_timeout
 
 echo "Finished! You may need to restart your computer for changes to take effect."

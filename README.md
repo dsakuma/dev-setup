@@ -15,15 +15,8 @@ To avoid polluting the system with too many source lists, PPAs and dependencies 
 
 ## Installation
 
+From a terminal, run the following command:
+
 ```sh
-# Install git
-sudo apt update
-sudo apt install -y git
-
-# Clone dev-setup
-git clone https://github.com/dsakuma/dev-setup.git ~/.local/share/dev-setup
-
-# Run install.sh
-cd ~/.local/share/dev-setup
-source install.sh
+wget -qO- https://raw.githubusercontent.com/dsakuma/dev-setup/main/install.sh | bash
 ```

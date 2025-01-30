@@ -17,7 +17,7 @@ directories=(
 for directory in "${directories[@]}"; do
 	echo Running "$directory" scripts...
 	# shellcheck disable=SC1090
-	for script in ./"$directory"/*.sh; do
+	for script in .~/.local/.share/dev-setup/"$directory"/*.sh; do
 	  echo Running "$script"...
 	  if ! source "$script"; then
 		  echo "Error: $script failed to execute."

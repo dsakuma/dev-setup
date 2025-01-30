@@ -1,7 +1,5 @@
 # dev-setup
 
-Effortless Ubuntu development setup with automated scripts.
-
 This project provides a streamlined development environment setup for Ubuntu 24.04 LTS or newer. It focuses on simplicity and functionality, avoiding unnecessary cosmetic changes and ensuring a clean system.
 
 ## Characteristics

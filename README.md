@@ -1,6 +1,6 @@
 # dev-setup
 
-This project provides a streamlined development environment setup for Ubuntu 24.04 LTS or newer. It focuses on simplicity and functionality, avoiding unnecessary cosmetic changes and ensuring a clean system.
+This project provides a streamlined development environment setup for Ubuntu 24.04 LTS or newer. It focuses on simplicity and functionality, avoiding unnecessary cosmetic changes and ensuring a clean system. Inspired by [Omakub Ubuntu Setup](https://github.com/basecamp/omakub).
 
 ## Characteristics
 

@@ -18,5 +18,5 @@ To avoid polluting the system with too many source lists, PPAs and dependencies 
 From a terminal, run the following command:
 
 ```sh
-wget -qO- https://raw.githubusercontent.com/dsakuma/dev-setup/main/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/dsakuma/dev-setup/main/boot.sh | bash
 ```

@@ -1,7 +1,8 @@
 #!/bin/bash
 
+# Install basic packages
 sudo apt update
-sudo apt install -y build-essential curl git unzip
+sudo apt install -y build-essential curl unzip
 
 # Flatpak and Flathub
 sudo apt install -y flatpak gnome-software-plugin-flatpak

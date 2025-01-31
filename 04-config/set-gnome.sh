@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Only icons while Alt+Tab
-gsettings set org.gnome.shell.window-switcher app-icon-mode 'app-icon-only'
-
 # Change touchpad and mouse to natural scroll
 gsettings set org.gnome.desktop.peripherals.touchpad natural-scroll true
 gsettings set org.gnome.desktop.peripherals.mouse natural-scroll true
@@ -26,5 +23,5 @@ gsettings set org.gnome.settings-daemon.plugins.color night-light-schedule-autom
 gsettings set org.gnome.shell.ubuntu startup-sound ''
 
 # Set dark mode
-dconf write /org/gnome/desktop/interface/color-scheme "'prefer-dark'"
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 

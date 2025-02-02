@@ -22,3 +22,6 @@ gsettings set org.gnome.shell.ubuntu startup-sound ''
 # Set dark mode
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
+# Power button suspend
+gsettings org.gnome.settings-daemon.plugins.power power-button-action 'suspend'
+

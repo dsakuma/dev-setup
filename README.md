@@ -21,5 +21,5 @@ This project provides a streamlined development environment setup for Ubuntu 24.
 From a terminal, run the following command:
 
 ```sh
-wget -qO /tmp/boot.sh https://raw.githubusercontent.com/dsakuma/dev-setup/main/boot.sh && source /tmp/boot.sh
+eval "$(wget -qO - https://raw.githubusercontent.com/dsakuma/dev-setup/main/boot.sh)"
 ```

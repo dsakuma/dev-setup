@@ -8,9 +8,6 @@ gsettings set org.gnome.desktop.peripherals.mouse natural-scroll true
 gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
 gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
 
-# Autohide dock
-gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed false
-
 # Hide mounted volumes and devices
 gsettings set org.gnome.shell.extensions.dash-to-dock show-mounts false
 

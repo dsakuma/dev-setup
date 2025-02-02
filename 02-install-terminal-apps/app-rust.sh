@@ -1,3 +1,3 @@
 #!/bin/bash
 
-curl https://sh.rustup.rs -sSf | sh
+curl https://sh.rustup.rs -sSf | sh -s -- -y --no-modify-path

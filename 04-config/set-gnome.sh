@@ -16,12 +16,15 @@ gsettings set org.gnome.settings-daemon.plugins.color night-light-enabled true
 gsettings set org.gnome.settings-daemon.plugins.color night-light-temperature 4700
 gsettings set org.gnome.settings-daemon.plugins.color night-light-schedule-automatic true
 
-# Disable startup sound
-gsettings set org.gnome.shell.ubuntu startup-sound ''
-
 # Set dark mode
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
+# Ubuntu 24.10 or later
+# ---------------------
+
+# Disable startup sound
+# gsettings set org.gnome.shell.ubuntu startup-sound ''
+
 # Power button suspend
-gsettings org.gnome.settings-daemon.plugins.power power-button-action 'suspend'
+# gsettings org.gnome.settings-daemon.plugins.power power-button-action 'suspend'
 

@@ -13,6 +13,7 @@ CI=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/insta
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # Rust and cargo
-curl https://sh.rustup.rs -sSf | sh -s -- -y --no-modify-path
+# curl https://sh.rustup.rs -sSf | sh -s -- -y --no-modify-path
 # shellcheck disable=SC1091
-source "$HOME/.cargo/env"
+# source "$HOME/.cargo/env"
+sudo apt install rustc cargo

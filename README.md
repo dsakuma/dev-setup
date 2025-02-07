@@ -14,7 +14,7 @@ This project provides a streamlined development environment setup for Ubuntu 24.
   - For GUI apps:
     1. Install from the Ubuntu repository using `apt`
     2. Install from Flathub using `flatpak`
-    3. Install from Snap using `snap`, only when the package installed works better than in the other options (currently only for Docker and VSCode)
+    3. Install from Snap using `snap`, only when snap version works better than other options (e.g., Docker and VSCode)
 
 ## Installation
 

@@ -14,6 +14,5 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # Rust and cargo
 # curl https://sh.rustup.rs -sSf | sh -s -- -y --no-modify-path
-# shellcheck disable=SC1091
 # source "$HOME/.cargo/env"
-sudo apt install -y rustc cargo
+# sudo apt install -y rustc cargo

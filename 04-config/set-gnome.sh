@@ -21,5 +21,5 @@ gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 gsettings set org.gnome.desktop.interface gtk-theme "Yaru-dark"
 
 # Suspend on power
-gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-timeout 3600 
+gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-timeout 3600
 gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'suspend'

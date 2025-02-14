@@ -29,4 +29,4 @@ The following order of preference is used for installing software:
 Open a terminal and execute the following command:
 
 ```bash
-eval "$(wget -qO - [https://raw.githubusercontent.com/dsakuma/dev-setup/main/boot.sh](https://raw.githubusercontent.com/dsakuma/dev-setup/main/boot.sh))"
+eval "$(wget -qO - https://raw.githubusercontent.com/dsakuma/dev-setup/main/boot.sh)"

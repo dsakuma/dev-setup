@@ -15,13 +15,14 @@ The following order of preference is used for installing software:
 
 1. **Ubuntu Repository (apt):**  Installation via `apt` is preferred for tools available in the official Ubuntu repositories. This ensures updates are managed by the system.
 2. **Homebrew (brew):**  If a tool is not available in the Ubuntu repositories, Homebrew is the next preferred option.
-3. **Developer Installation Script:**  As a last resort, if a package is unavailable via `apt` or `brew`, or if a developer-provided script offers a significantly cleaner installation method, that script will be used.
+3. **Developer Installation Script:**  If a package is unavailable via `apt` or `brew`, or if a developer-provided script offers a significantly cleaner installation method, that script will be used.
+4. **Snap (snap):**  Snap is used specifically when the Snap has a significantly cleaner installation method (e.g., Docker)
 
 **Graphical Applications:**
 
 1. **Ubuntu Repository (apt):**  Similar to command-line tools, `apt` is the preferred method for installing GUI applications available in the official Ubuntu repositories.
 2. **Flathub (flatpak):**  Flathub is the second choice for GUI application installation, offering a wide selection of sandboxed applications.
-3. **Snap (snap):**  Snap is used as a final option for GUI applications, specifically when the Snap version offers advantages over other options (e.g., VS Code).
+3. **Developer Installation Script:**  As a last resort, if a package is unavailable via `apt` or when the application does not work well in flatpak sandbox (e.g., VS Code)
 
 ## Installation Instructions
 

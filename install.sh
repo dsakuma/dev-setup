@@ -7,8 +7,8 @@ gsettings set org.gnome.desktop.session idle-delay 0
 # Directories containing scripts to run
 directories=(
 	"01-pre-install"
-	"02-install-terminal-apps"
-	"03-install-desktop-apps"
+	"02-install-cli-apps"
+	"03-install-gui-apps"
 	"04-config"
 	"05-post-install"
 )

@@ -15,7 +15,7 @@ The following order of preference is used for installing software:
 
 1. **Ubuntu Repository (apt):**  Installation via `apt` is preferred for tools available in the official Ubuntu repositories. This ensures updates are managed by the system.
 2. **Homebrew (brew):**  If a tool is not available in the Ubuntu repositories, Homebrew is the next preferred option.
-3. **Developer Installation Script:**  If a package is unavailable via `apt` or `brew`, or if a developer-provided script offers a significantly cleaner installation method, that script will be used.
+3. **Developer Installation Script:**  If a package is unavailable via `apt` or `brew` the developer-provided script will be used.
 4. **Snap (snap):**  Snap is used specifically when the Snap has a significantly cleaner installation method (e.g., Docker)
 
 **Graphical Applications:**

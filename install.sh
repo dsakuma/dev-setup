@@ -9,8 +9,9 @@ directories=(
 	"01-pre-install"
 	"02-install-cli-apps"
 	"03-install-gui-apps"
-	"04-config"
-	"05-post-install"
+  "04-install-optional-apps"
+	"05-config"
+	"06-post-install"
 )
 
 # Run all scripts in each directory

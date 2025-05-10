@@ -1,11 +1,21 @@
 # dev-setup
 
-This project provides a streamlined development environment setup for Ubuntu 24.04 LTS or newer.  It prioritizes simplicity and a clean system, focusing on essential functionality and avoiding unnecessary cosmetic changes.  This approach ensures ease of maintenance and understanding. Inspired by [Omakub Ubuntu Setup](https://github.com/basecamp/omakub).
+This repository automates the setup of a development environment on Ubuntu 24.04 LTS or newer. It focuses on simplicity, stability, and maintaining a clean system by prioritizing official repositories and avoiding unnecessary customizations. Inspired by [Omakub Ubuntu Setup](https://github.com/basecamp/omakub).
 
 ## Key Features
 
-* **Simplicity:**  Focuses on core development tools and avoids unnecessary visual customizations.  For example, while dark mode and night light are enabled, the desktop environment and themes are not modified. This keeps the system predictable and reduces the risk of conflicts.
-* **Clean System:**  Emphasizes using official repositories and avoids Personal Package Archives (PPAs) whenever possible.  Both command-line tools and graphical applications are installed using a prioritized method to minimize conflicts and maintain system stability.
+* **Simplicity:** Just shell scripts are used to install the necessary tools.  This avoids the complexity of using configuration management tools like Ansible or Chef, which can be overkill for a simple setup.
+* **Minimal Dependencies:**  The setup script is designed to be lightweight and does not require any additional dependencies.  This ensures that the installation process is quick and efficient.
+* **Prioritized Installation Methods:** Uses `apt`, `flatpak`, `brew`, or developer-provided scripts in a preferred order to ensure stability.
+* **Minimal System Changes:** Avoids unnecessary visual customizations to keep the system predictable and easy to maintain.
+
+## Installation Instructions
+
+Open a terminal and execute the following command:
+
+```bash
+eval "$(wget -qO - https://raw.githubusercontent.com/dsakuma/dev-setup/main/boot.sh)"
+```
 
 ## Installation Priority
 
@@ -24,9 +34,13 @@ The following order of preference is used for installing software:
 2. **Flathub (flatpak):**  Flathub is the second choice for GUI application installation, offering a wide selection of sandboxed applications.
 3. **Developer Installation Script:**  As a last resort, if a package is unavailable via `apt` or when the application does not work well in flatpak sandbox (e.g., VS Code)
 
-## Installation Instructions
+## Directory Structure
 
-Open a terminal and execute the following command:
+The repository is organized into directories for different stages of the setup process:
 
-```bash
-eval "$(wget -qO - https://raw.githubusercontent.com/dsakuma/dev-setup/main/boot.sh)"
+* **`01-pre-install/`**: Pre-installation scripts for basic tools and package managers.
+* **`02-install-cli-apps/`**: Scripts to install command-line tools and libraries.
+* **`03-install-gui-apps/`**: Scripts to install graphical applications.
+* **`04-config/`**: Configuration scripts for installed tools.
+* **`05-post-install/`**: Post-installation tasks.
+* **`06-manually-install-apps/`**: Scripts for apps that are not automatically installed.

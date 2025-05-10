@@ -1,6 +1,7 @@
 #!/bin/bash
 
-sudo -v -S
+PASSWD=$(zenity --password --title="Password Required" --text="Enter your password to continue.")
+echo "$PASSWD" | sudo -v -S
 
 # Install git
 sudo apt update

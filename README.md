@@ -17,6 +17,17 @@ Open a terminal and execute the following command:
 eval "$(wget -qO - https://raw.githubusercontent.com/dsakuma/dev-setup/main/boot.sh)"
 ```
 
+## Directory Structure
+
+The repository is organized into directories for different stages of the setup process:
+
+* **`01-pre-install/`**: Pre-installation scripts for basic tools and package managers.
+* **`02-install-cli-apps/`**: Scripts to install command-line tools and libraries.
+* **`03-install-gui-apps/`**: Scripts to install graphical applications.
+* **`04-config/`**: Configuration scripts for installed tools.
+* **`05-post-install/`**: Post-installation tasks.
+* **`06-install-optional-apps/`**: Installation scripts for apps that are not automatically installed.
+
 ## Installation Priority
 
 The following order of preference is used for installing software:
@@ -33,14 +44,3 @@ The following order of preference is used for installing software:
 1. **Ubuntu Repository (apt):**  Similar to command-line tools, `apt` is the preferred method for installing GUI applications available in the official Ubuntu repositories.
 2. **Flathub (flatpak):**  Flathub is the second choice for GUI application installation, offering a wide selection of sandboxed applications.
 3. **Developer Installation Script:**  As a last resort, if a package is unavailable via `apt` or when the application does not work well in flatpak sandbox (e.g., VS Code)
-
-## Directory Structure
-
-The repository is organized into directories for different stages of the setup process:
-
-* **`01-pre-install/`**: Pre-installation scripts for basic tools and package managers.
-* **`02-install-cli-apps/`**: Scripts to install command-line tools and libraries.
-* **`03-install-gui-apps/`**: Scripts to install graphical applications.
-* **`04-config/`**: Configuration scripts for installed tools.
-* **`05-post-install/`**: Post-installation tasks.
-* **`06-install-optional-apps/`**: Installation scripts for apps that are not automatically installed.

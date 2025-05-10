@@ -43,4 +43,4 @@ The repository is organized into directories for different stages of the setup p
 * **`03-install-gui-apps/`**: Scripts to install graphical applications.
 * **`04-config/`**: Configuration scripts for installed tools.
 * **`05-post-install/`**: Post-installation tasks.
-* **`06-manually-install-apps/`**: Scripts for apps that are not automatically installed.
+* **`06-install-optional-apps/`**: Installation scripts for apps that are not automatically installed.

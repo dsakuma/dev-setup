@@ -4,9 +4,10 @@
 gsettings set org.gnome.desktop.peripherals.touchpad natural-scroll true
 gsettings set org.gnome.desktop.peripherals.mouse natural-scroll true
 
-# Change dock to bottom
+# Change dock to bottom and auto-hide
 gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
 gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
+gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed false
 
 # Hide mounted volumes and devices
 gsettings set org.gnome.shell.extensions.dash-to-dock show-mounts false

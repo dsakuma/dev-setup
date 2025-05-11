@@ -14,7 +14,7 @@ This repository automates the setup of a development environment on Ubuntu 24.04
 Open a terminal and execute the following command:
 
 ```bash
-eval "$(wget -qO - https://raw.githubusercontent.com/dsakuma/dev-setup/main/boot.sh)"
+eval "$(wget -qO - https://raw.githubusercontent.com/dsakuma/dev-setup/main/install.sh)"
 ```
 
 ## Directory Structure

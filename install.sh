@@ -19,7 +19,7 @@ for directory in "${directories[@]}"; do
 	# shellcheck disable=SC1090
 	for script in ~/.local/share/dev-setup/"$directory"/*.sh; do
 	  echo Running "$script"...
-    sudo -v
+    echo "PASSWD" | sudo -v -S 2> /dev/null
 	  if ! source "$script"; then
 		  echo "Error: $script failed to execute."
 	    return 1

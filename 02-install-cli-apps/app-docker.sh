@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo snap install docker
+echo "$PASSWD" | sudo -S snap install docker

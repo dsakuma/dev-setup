@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Remove unused software
-sudo snap remove firefox
+sudo snap remove --purge firefox
 
 # Upgrade
 sudo snap refresh
